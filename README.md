@@ -13,4 +13,9 @@ The steps in obtaining continuum normalized spectra are partially taken from [Va
 4. The continuum pixels in each order then fit with a high-order polynomial (N=9) which is then divided from the original, unsmoothed spectrum.
 5. Finally, the deblazed spectrum is scaled such that 5% of the flux values exceed unity.
 
-![](https://github.com/aspolanski/SpecDB/blob/main/continuum_finding.gif)
+![](https://github.com/aspolanski/SpecDB/blob/main/continuum_finding.gif){ .image25percent }
+
+An animation showing the iterative process descriped in Step 3.
+
+This algorithm was optimized for stars ranging from F type to early K. It may also be easily adaptable to other echelle spectrographs (to-do?)
+
