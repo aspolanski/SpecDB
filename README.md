@@ -4,6 +4,7 @@ Requirements:
   * NumPy
   * Scipy
   * Matplotlib
+
 Highly Recommended:
   * [smplotlib](https://github.com/AstroJacobLi/smplotlib) (for the pretty plots) 
 
@@ -26,4 +27,9 @@ The steps in obtaining continuum normalized spectra are partially taken from [Va
 An animation showing the iterative process descriped in Step 3.
 
 This algorithm was optimized for stars ranging from F type to early K. It may also be easily adaptable to other echelle spectrographs (to-do?)
+
+Usage:
+`python deblaze_spectrum.py -file ./raw/test_file/fits -plot -log` 
+
+
 
