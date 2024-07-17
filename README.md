@@ -1,4 +1,4 @@
-# SpecDB - Contiuum Normalized Spectra for Keck/HIRES
+# SpecDB - Continuum Normalized Spectra for Keck/HIRES
 
 This repo hosts some functions that were used to deblaze spectra from the middle 'r' chip of the High Resolution Echelle Spectrograph from Keck. For more information about HIRES data products please refer to [the California Kepler Survey website](https://california-planet-search.github.io/cks-website/) and [Petigura et al. 2017](https://ui.adsabs.harvard.edu/abs/2017AJ....154..107P/abstract). These functions were used in Polanski et al. 202X.
 
@@ -13,7 +13,8 @@ The steps in obtaining continuum normalized spectra are partially taken from [Va
 4. The continuum pixels in each order then fit with a high-order polynomial (N=9) which is then divided from the original, unsmoothed spectrum.
 5. Finally, the deblazed spectrum is scaled such that 5% of the flux values exceed unity.
 
-![](https://github.com/aspolanski/SpecDB/blob/main/continuum_finding.gif){ .image25percent }
+
+<img src="https://github.com/aspolanski/SpecDB/blob/main/continuum_finding.gif" width="40" height="40" />
 
 An animation showing the iterative process descriped in Step 3.
 
