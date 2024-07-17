@@ -14,7 +14,7 @@ The steps in obtaining continuum normalized spectra are partially taken from [Va
 5. Finally, the deblazed spectrum is scaled such that 5% of the flux values exceed unity.
 
 
-<img src="https://github.com/aspolanski/SpecDB/blob/main/continuum_finding.gif" width="40" height="40" />
+<img src="https://github.com/aspolanski/SpecDB/blob/main/continuum_finding.gif" width="200" height="200" />
 
 An animation showing the iterative process descriped in Step 3.
 
